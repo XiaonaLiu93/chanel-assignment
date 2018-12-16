@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1; /*above other elements when overlapping*/
+}
+
+.header > #chanel-logo {
+    background-color: white;
+    color: black;
+    text-align: center; 
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.header > #none {
+    background: black;
+    padding-top: 8px;
+}
+
+.nav-bars {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+}
+
+.nav-bar {
+    padding: 10px 13px 20px;
+}
+
+.item {
+    background-size: cover;
+    height: 75vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 90px;
+}
+
+.item > div {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.item > div > div {
+    font-size: 0.75rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.item h2 {
+    font-size: 2.5rem;    
+    text-shadow: 0 0 6px rgba(0,0,0,.6);
+    margin: 0;
+    line-height: 1.125;
+}
+
+.item button {
+    font-size: .6875rem;
+    font-weight: bold;
+    line-height: 1.2727272727;
+    height: 3.125rem;
+    padding: 0 1.5625rem;
+    margin-top: 1.125rem;
+    border: 0;
+    outline: 0;
+}
+
+.item button:hover {
+    text-decoration: underline;
+}
+
+#huiles-de-massage {
+    background-image: url(./image-1.jpg);
+}
+
+#n°5-limited-edition {
+    background-image: url(./image-2.jpg);
+}
+
+#coco-crush {
+    background-image: url(./image-3.jpg);
+}
+
+.contact {
+    margin: 180px;
+    list-style-type: none; /*non-marker*/
+    display: flex;
+}
+
+.contact-tip {
+    color: black;
+}
+
+.contact-description {
+    color: #767676;;
+}
+
+.contact-operation {
+    color: #767676;
+}
