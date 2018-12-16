@@ -93,10 +93,26 @@ body {
     background-image: url(./image-3.jpg);
 }
 
-.contact {
-    margin: 180px;
+.chanel-contact {
+    margin: 0;
+    padding: 0;
     list-style-type: none; /*non-marker*/
     display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 350px;
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+
+.contact:first-child {
+    padding-left: 50px;
+}
+
+.contact:last-child {
+    padding-right: 50px;
 }
 
 .contact-tip {
@@ -109,4 +125,18 @@ body {
 
 .contact-operation {
     color: #767676;
+}
+
+a:link {
+    color: #767676;
+}
+
+a:hover {
+    border-bottom: 2px solid black; /*未实现*/
+}
+
+.chanel-input {
+    border: none;
+    border-bottom: 2px solid #767676;
+    outline: none;
 }
